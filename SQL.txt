@@ -1,0 +1,38 @@
+--CREATE DATABASE FirstDB
+
+--DROP DATABASE FirstDB
+
+--CREATE DATABASE Academy
+--USE Academy
+
+--CREATE TABLE Students
+--(
+--   [Name] NVARCHAR(30),
+--   Surname NVARCHAR(30),
+--   Age INT
+--)
+
+
+	--INSERT INTO Students 
+	--VALUES
+	--('Tamerlan','Eliyev',25),('Murad','Aydinov',19),('Nuray','Ehmedova',31)
+
+	--	INSERT INTO Students(Age,[Name])
+	--VALUES
+	--(25),(25),(25)
+
+	--SELECT * FROM Students
+	--WHERE Surname='Eliyev' 
+
+	--Select * from Students
+	--where Age=31
+	
+
+	--Delete Students
+	--WHERE Age=33 and [Name]='Nuray'
+
+	Select * from Students
+
+	UPDATE Students
+	Set Age=100
+	where [Name]='Murad'
